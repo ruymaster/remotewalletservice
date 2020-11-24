@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletService", "WalletServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Remote Interactive Wallet Base", "Remote Interactive Wallet Base\Remote Interactive Wallet Base.csproj", "{6FBB8A57-2354-43AD-9DCD-69E1DB889357}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bsc-sdk-src", "bsc-sdk-csharp\src\bsc-sdk-src.csproj", "{C86739EC-7724-4D41-B5B1-A2D2BF221B5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockchainClient.netstandard", "BlockchainClient\BlockchainClient.netstandard.csproj", "{29FF0CD3-5719-425E-9E6D-49C7B982D064}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6FBB8A57-2354-43AD-9DCD-69E1DB889357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FBB8A57-2354-43AD-9DCD-69E1DB889357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FBB8A57-2354-43AD-9DCD-69E1DB889357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86739EC-7724-4D41-B5B1-A2D2BF221B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86739EC-7724-4D41-B5B1-A2D2BF221B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86739EC-7724-4D41-B5B1-A2D2BF221B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86739EC-7724-4D41-B5B1-A2D2BF221B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FF0CD3-5719-425E-9E6D-49C7B982D064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FF0CD3-5719-425E-9E6D-49C7B982D064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FF0CD3-5719-425E-9E6D-49C7B982D064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FF0CD3-5719-425E-9E6D-49C7B982D064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
